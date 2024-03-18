@@ -8,7 +8,19 @@
 
 - We use the following formula;
 
-x\_{n+1} = x_n - \frac{(x_n^2 - a)}{2x_n}
+        xn+1 = xn - ((xn2 -a)/2xn)
 
 - Since it is rare for to reach exact 0 while using floating point arithmetic, we set the **threshhold** = 1e-10
 - As a stopping criteria, we also set a maximum number of iterations, and limit it to 100.
+
+- On the second part of challenge 1, we solve the problem
+  sin(x) + (3/4)x = 1
+
+- The domain of the problem is restricted to x in (0.0, 6.0)
+- We use the following initial values to obtain the solution
+
+  - x0 = 1.0
+  - x0 = 2.0
+  - x0 = 4.0
+
+- By running the python script another.py, the following is a snapshot of the results
