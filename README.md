@@ -43,3 +43,7 @@
 
 - Navigate to the relevant folder for each challenge
 - Run the python scripts to view the solution
+
+## License
+
+[Click to view License](LICENSE)
