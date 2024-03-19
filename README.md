@@ -23,6 +23,8 @@
   - x0 = 2.0
   - x0 = 4.0
 
+- We use matplotlib to plot the function, using plot.py script.
+
 - Run the python script another.py, to view the results
 
 ### Challenge 2
