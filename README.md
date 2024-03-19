@@ -41,7 +41,7 @@
 
 - Clone the repository to your local host:
 
-  `git clone https://github.com/CodeRichBob/Eqa.git`
+        `git clone https://github.com/CodeRichBob/Eqa.git`
 
 - Navigate to the relevant folder for each challenge
 - Run the python scripts to view the solution
