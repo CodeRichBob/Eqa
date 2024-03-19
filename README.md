@@ -23,4 +23,23 @@
   - x0 = 2.0
   - x0 = 4.0
 
-- By running the python script another.py, the following is a snapshot of the results
+- Run the python script another.py, to view the results
+
+### Challenge 2
+
+- In this challenge, we are working on Matrix Product State
+- The code pads the input vector with zeros to make its length a power of 2 and then normalizes it.
+- It reshapes the normalized vector into a matrix of dimensions 2*N-1* x 2 where _N_ is the nearest power of 2.
+- Singular Value Decomposition (SVD) is performed on the matrix to obtain _U_,_s_, and _V_ matrices.
+- We construct the _A_ matrix and reshapes it accordingly
+- Finally, we reshape the _V_ matrix into a tensor, swaps the axes, and stores it in a list called psi.
+- To view the results navigate to the folder named challenge2 and run the python script mpssolution.py
+
+## Set up and How to use
+
+- Clone the repository to your local host:
+
+  `git clone https://github.com/CodeRichBob/Eqa.git`
+
+- Navigate to the relevant folder for each challenge
+- Run the python scripts to view the solution
